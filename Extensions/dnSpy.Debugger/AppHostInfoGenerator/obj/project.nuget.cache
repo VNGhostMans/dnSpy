@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7LXLese06GF+vVMx0NM9x+8++PJZj3GsDnyRtTnG4BDvU7RkhxsnbH07RdNLCwFO0KSnV5VrIA9uPI7ZybTGpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\AppHostInfoGenerator\\AppHostInfoGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

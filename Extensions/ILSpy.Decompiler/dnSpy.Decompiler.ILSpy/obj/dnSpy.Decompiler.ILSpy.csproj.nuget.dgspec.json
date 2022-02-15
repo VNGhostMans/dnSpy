@@ -1,0 +1,824 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy\\dnSpy.Decompiler.ILSpy.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj": {
+      "version": "6.1.8",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj",
+        "projectName": "dnSpy.Contracts.DnSpy",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              }
+            }
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.VisualStudio.Composition.NetFxAttributes": {
+              "target": "Package",
+              "version": "[16.4.11, )"
+            },
+            "Microsoft.VisualStudio.Language.Intellisense": {
+              "target": "Package",
+              "version": "[15.5.27130, )"
+            },
+            "Microsoft.VisualStudio.Text.UI.Wpf": {
+              "target": "Package",
+              "version": "[15.5.27130, )"
+            },
+            "Ookii.Dialogs.Wpf": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.VisualStudio.Composition.NetFxAttributes": {
+              "target": "Package",
+              "version": "[16.4.11, )"
+            },
+            "Microsoft.VisualStudio.Language.Intellisense": {
+              "target": "Package",
+              "version": "[15.5.27130, )"
+            },
+            "Microsoft.VisualStudio.Text.UI.Wpf": {
+              "target": "Package",
+              "version": "[15.5.27130, )"
+            },
+            "Ookii.Dialogs.Wpf": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+      "version": "6.1.8",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj",
+        "projectName": "dnSpy.Contracts.Logic",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "dnlib": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "dnlib": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Decompiler\\dnSpy.Decompiler.csproj": {
+      "version": "6.1.8",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Decompiler\\dnSpy.Decompiler.csproj",
+        "projectName": "dnSpy.Decompiler",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Decompiler\\dnSpy.Decompiler.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Decompiler\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              }
+            }
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy.Core\\dnSpy.Decompiler.ILSpy.Core.csproj": {
+      "version": "6.1.8",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy.Core\\dnSpy.Decompiler.ILSpy.Core.csproj",
+        "projectName": "dnSpy.Decompiler.ILSpy.Core",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy.Core\\dnSpy.Decompiler.ILSpy.Core.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Decompiler\\dnSpy.Decompiler.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Decompiler\\dnSpy.Decompiler.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\NRefactory.VB\\ICSharpCode.NRefactory.VB\\ICSharpCode.NRefactory.VB.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\NRefactory.VB\\ICSharpCode.NRefactory.VB\\ICSharpCode.NRefactory.VB.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj"
+              }
+            }
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Decompiler\\dnSpy.Decompiler.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Decompiler\\dnSpy.Decompiler.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\NRefactory.VB\\ICSharpCode.NRefactory.VB\\ICSharpCode.NRefactory.VB.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\NRefactory.VB\\ICSharpCode.NRefactory.VB\\ICSharpCode.NRefactory.VB.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy\\dnSpy.Decompiler.ILSpy.csproj": {
+      "version": "6.1.8",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy\\dnSpy.Decompiler.ILSpy.csproj",
+        "projectName": "dnSpy.Decompiler.ILSpy.x",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy\\dnSpy.Decompiler.ILSpy.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy.Core\\dnSpy.Decompiler.ILSpy.Core.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy.Core\\dnSpy.Decompiler.ILSpy.Core.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj"
+              }
+            }
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy.Core\\dnSpy.Decompiler.ILSpy.Core.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy.Core\\dnSpy.Decompiler.ILSpy.Core.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.VisualStudio.Text.UI.Wpf": {
+              "target": "Package",
+              "version": "[15.5.27130, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.VisualStudio.Text.UI.Wpf": {
+              "target": "Package",
+              "version": "[15.5.27130, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj": {
+      "version": "2.3.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj",
+        "projectName": "ICSharpCode.Decompiler",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj"
+              }
+            }
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\NRefactory.VB\\ICSharpCode.NRefactory.VB\\ICSharpCode.NRefactory.VB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\NRefactory.VB\\ICSharpCode.NRefactory.VB\\ICSharpCode.NRefactory.VB.csproj",
+        "projectName": "ICSharpCode.NRefactory.VB",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\NRefactory.VB\\ICSharpCode.NRefactory.VB\\ICSharpCode.NRefactory.VB.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\NRefactory.VB\\ICSharpCode.NRefactory.VB\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj"
+              }
+            }
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler\\ICSharpCode.Decompiler.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj",
+        "projectName": "ICSharpCode.NRefactory.CSharp",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\ICSharpCode.NRefactory.CSharp.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory.CSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj"
+              }
+            }
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+              },
+              "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj": {
+                "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj",
+        "projectName": "ICSharpCode.NRefactory",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\ICSharpCode.NRefactory.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\NRefactory\\ICSharpCode.NRefactory\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "dnlib": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "dnlib": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

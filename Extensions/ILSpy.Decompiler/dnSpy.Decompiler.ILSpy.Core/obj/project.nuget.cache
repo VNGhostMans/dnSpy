@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1kQ4Kgc9GvxjY7iNs0T2bg8ldqRHG4Lg+oRjxcpUTvIKO2VwAxGF6OzMsmSEIgNMTPxXfJK8Qq33I7PRWbEDjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\ILSpy.Decompiler\\dnSpy.Decompiler.ILSpy.Core\\dnSpy.Decompiler.ILSpy.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\dnlib\\3.3.2\\dnlib.3.3.2.nupkg.sha512",
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

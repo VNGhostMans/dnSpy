@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jJnitoIRQIkDIGFoQhc9aHMop92IK/UIryy20ELf0Kugelvt0as4deGI3j0w7+DuD3l4EWv8Z2EKChERA5rMHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Build\\AppHostPatcher\\AppHostPatcher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.8\\microsoft.netcore.app.runtime.win-x64.5.0.8.nupkg.sha512",
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.8\\microsoft.aspnetcore.app.runtime.win-x64.5.0.8.nupkg.sha512",
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.8\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.8.nupkg.sha512",
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.8\\microsoft.netcore.app.runtime.win-x86.5.0.8.nupkg.sha512",
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.8\\microsoft.aspnetcore.app.runtime.win-x86.5.0.8.nupkg.sha512",
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.8\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

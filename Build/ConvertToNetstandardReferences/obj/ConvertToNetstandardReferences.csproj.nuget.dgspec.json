@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Build\\ConvertToNetstandardReferences\\ConvertToNetstandardReferences.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Build\\ConvertToNetstandardReferences\\ConvertToNetstandardReferences.csproj": {
+      "version": "6.1.8",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Build\\ConvertToNetstandardReferences\\ConvertToNetstandardReferences.csproj",
+        "projectName": "ConvertToNetstandardReferences",
+        "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Build\\ConvertToNetstandardReferences\\ConvertToNetstandardReferences.csproj",
+        "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Build\\ConvertToNetstandardReferences\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "net5.0-windows",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[16.7.0, )"
+            },
+            "Microsoft.Build.Utilities.Core": {
+              "target": "Package",
+              "version": "[16.7.0, )"
+            },
+            "dnlib": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[16.7.0, )"
+            },
+            "Microsoft.Build.Utilities.Core": {
+              "target": "Package",
+              "version": "[16.7.0, )"
+            },
+            "dnlib": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[16.7.0, )"
+            },
+            "Microsoft.Build.Utilities.Core": {
+              "target": "Package",
+              "version": "[16.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "dnlib": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

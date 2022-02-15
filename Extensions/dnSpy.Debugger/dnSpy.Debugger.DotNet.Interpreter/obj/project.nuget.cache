@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GktjOIkkc7iicU/QArNR5gHD2ZbgROPaVcJje+yV7jRUfVvOTmZ4KMfWczRu0AvU5A2QbtRy5ECdPT9E51BpXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\dnSpy.Debugger.DotNet.Interpreter\\dnSpy.Debugger.DotNet.Interpreter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\dnlib\\3.3.2\\dnlib.3.3.2.nupkg.sha512",
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

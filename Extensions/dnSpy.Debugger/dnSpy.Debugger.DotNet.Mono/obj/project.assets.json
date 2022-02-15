@@ -1,0 +1,1153 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "dnlib/3.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/dnlib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/dnlib.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Composition.NetFxAttributes/16.4.11": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Composition": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Composition.NetFxAttributes.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Composition.NetFxAttributes.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.CoreUtility/15.5.27130": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.CoreUtility.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.CoreUtility.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Language.Intellisense/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Text.UI": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Language.Intellisense.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Language.Intellisense.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Text.Data/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.CoreUtility": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Text.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Text.Data.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Text.Logic/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.CoreUtility": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Data": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Text.Logic.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Text.Logic.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Text.UI/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.CoreUtility": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Data": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Logic": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Text.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Text.UI.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Text.UI.Wpf/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.CoreUtility": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Data": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Logic": "15.5.27130",
+          "Microsoft.VisualStudio.Text.UI": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Text.UI.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Text.UI.Wpf.dll": {}
+        }
+      },
+      "Ookii.Dialogs.Wpf/3.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Core",
+          "System.Design",
+          "System.Drawing",
+          "System.Security",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        }
+      },
+      "System.ComponentModel.Composition/4.6.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "dnSpy.Contracts.Debugger/6.1.8": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Microsoft.VisualStudio.Text.UI.Wpf": "15.5.27130",
+          "dnSpy.Contracts.DnSpy": "6.1.8",
+          "dnSpy.Contracts.Logic": "6.1.8"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.dll": {}
+        }
+      },
+      "dnSpy.Contracts.Debugger.DotNet/6.1.8": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "dnSpy.Contracts.Debugger": "6.1.8",
+          "dnSpy.Contracts.DnSpy": "6.1.8",
+          "dnSpy.Contracts.Logic": "6.1.8",
+          "dnSpy.Debugger.DotNet.Metadata": "6.1.8"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.DotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.DotNet.dll": {}
+        }
+      },
+      "dnSpy.Contracts.Debugger.DotNet.Mono/6.1.8": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "dnSpy.Contracts.Debugger": "6.1.8",
+          "dnSpy.Contracts.Debugger.DotNet": "6.1.8",
+          "dnSpy.Contracts.Logic": "6.1.8"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.DotNet.Mono.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.DotNet.Mono.dll": {}
+        }
+      },
+      "dnSpy.Contracts.DnSpy/6.1.8": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "Microsoft.VisualStudio.Composition.NetFxAttributes": "16.4.11",
+          "Microsoft.VisualStudio.Language.Intellisense": "15.5.27130",
+          "Microsoft.VisualStudio.Text.UI.Wpf": "15.5.27130",
+          "Ookii.Dialogs.Wpf": "3.0.1",
+          "System.ComponentModel.Composition": "4.6.0",
+          "dnSpy.Contracts.Logic": "6.1.8"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.DnSpy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.DnSpy.dll": {}
+        }
+      },
+      "dnSpy.Contracts.Logic/6.1.8": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "dnlib": "3.3.2"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.Logic.dll": {}
+        }
+      },
+      "dnSpy.Debugger.DotNet.Metadata/6.1.8": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "dnlib": "3.3.2"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Debugger.DotNet.Metadata.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Debugger.DotNet.Metadata.dll": {}
+        }
+      },
+      "Mono.Debugger.Soft/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "compile": {
+          "bin/placeholder/Mono.Debugger.Soft.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mono.Debugger.Soft.dll": {}
+        }
+      }
+    },
+    "net5.0-windows7.0": {
+      "dnlib/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/dnlib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/dnlib.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.VisualStudio.Composition.NetFxAttributes/16.4.11": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Composition": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Composition.NetFxAttributes.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Composition.NetFxAttributes.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.CoreUtility/15.5.27130": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.CoreUtility.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.CoreUtility.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Language.Intellisense/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Text.UI": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Language.Intellisense.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Language.Intellisense.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Text.Data/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.CoreUtility": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Text.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Text.Data.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Text.Logic/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.CoreUtility": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Data": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Text.Logic.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Text.Logic.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Text.UI/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.CoreUtility": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Data": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Logic": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Text.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Text.UI.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Text.UI.Wpf/15.5.27130": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.CoreUtility": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Data": "15.5.27130",
+          "Microsoft.VisualStudio.Text.Logic": "15.5.27130",
+          "Microsoft.VisualStudio.Text.UI": "15.5.27130"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Text.UI.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Text.UI.Wpf.dll": {}
+        }
+      },
+      "Ookii.Dialogs.Wpf/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "System.ComponentModel.Composition/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.ComponentModel.Composition.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.ComponentModel.Composition.dll": {}
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "dnSpy.Contracts.Debugger/6.1.8": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Text.UI.Wpf": "15.5.27130",
+          "dnSpy.Contracts.DnSpy": "6.1.8",
+          "dnSpy.Contracts.Logic": "6.1.8"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.dll": {}
+        }
+      },
+      "dnSpy.Contracts.Debugger.DotNet/6.1.8": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "dnSpy.Contracts.Debugger": "6.1.8",
+          "dnSpy.Contracts.DnSpy": "6.1.8",
+          "dnSpy.Contracts.Logic": "6.1.8",
+          "dnSpy.Debugger.DotNet.Metadata": "6.1.8"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.DotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.DotNet.dll": {}
+        }
+      },
+      "dnSpy.Contracts.Debugger.DotNet.Mono/6.1.8": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "dnSpy.Contracts.Debugger": "6.1.8",
+          "dnSpy.Contracts.Debugger.DotNet": "6.1.8",
+          "dnSpy.Contracts.Logic": "6.1.8"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.DotNet.Mono.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.Debugger.DotNet.Mono.dll": {}
+        }
+      },
+      "dnSpy.Contracts.DnSpy/6.1.8": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Composition.NetFxAttributes": "16.4.11",
+          "Microsoft.VisualStudio.Language.Intellisense": "15.5.27130",
+          "Microsoft.VisualStudio.Text.UI.Wpf": "15.5.27130",
+          "Ookii.Dialogs.Wpf": "3.0.1",
+          "dnSpy.Contracts.Logic": "6.1.8"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.DnSpy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.DnSpy.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "dnSpy.Contracts.Logic/6.1.8": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "dnlib": "3.3.2"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Contracts.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Contracts.Logic.dll": {}
+        }
+      },
+      "dnSpy.Debugger.DotNet.Metadata/6.1.8": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "dnlib": "3.3.2"
+        },
+        "compile": {
+          "bin/placeholder/dnSpy.Debugger.DotNet.Metadata.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dnSpy.Debugger.DotNet.Metadata.dll": {}
+        }
+      },
+      "Mono.Debugger.Soft/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Mono.Debugger.Soft.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mono.Debugger.Soft.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dnlib/3.3.2": {
+      "sha512": "16p2zxL0d0FJ7POvunZ+9cn3mREmQD1rDm+1C1eIMDBRAuEGLCSWdIobrUNYP//DcfMRYHbpgB8Gh2BYjEkS2Q==",
+      "type": "package",
+      "path": "dnlib/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "dnlib.3.3.2.nupkg.sha512",
+        "dnlib.nuspec",
+        "lib/net35/dnlib.dll",
+        "lib/net35/dnlib.xml",
+        "lib/net45/dnlib.dll",
+        "lib/net45/dnlib.xml",
+        "lib/netstandard2.0/dnlib.dll",
+        "lib/netstandard2.0/dnlib.xml"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.VisualStudio.Composition.NetFxAttributes/16.4.11": {
+      "sha512": "KufBhjVwhq+Sgt9Vl5XNOsZykU5aXpU8hO0UXlM98Giw5iRDJAxHBLSRYDzcadVtVrf++QSB95bVydxem0jegQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.composition.netfxattributes/16.4.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Composition.NetFxAttributes.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Composition.NetFxAttributes.pdb",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Composition.NetFxAttributes.xml",
+        "microsoft.visualstudio.composition.netfxattributes.16.4.11.nupkg.sha512",
+        "microsoft.visualstudio.composition.netfxattributes.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.CoreUtility/15.5.27130": {
+      "sha512": "zteI/2y13GcSVEr7PDRrShEu/7xbSH9HIKIeH/syaldjsi+I7iLrh/FSu+ErBoNvHgcU7WnXY3l8VKsA5JxC+g==",
+      "type": "package",
+      "path": "microsoft.visualstudio.coreutility/15.5.27130",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.VisualStudio.CoreUtility.dll",
+        "lib/net45/Microsoft.VisualStudio.CoreUtility.xml",
+        "microsoft.visualstudio.coreutility.15.5.27130.nupkg.sha512",
+        "microsoft.visualstudio.coreutility.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Language.Intellisense/15.5.27130": {
+      "sha512": "OYi2RbIBNxNMms8uaOtEXuEB4mEgEmSvBwh3S+C2G35l7+wLAICa/UC6CZxf1rVwCRiyRS9Uv9Gs7Z4n+mmbXw==",
+      "type": "package",
+      "path": "microsoft.visualstudio.language.intellisense/15.5.27130",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.VisualStudio.Language.Intellisense.dll",
+        "lib/net45/Microsoft.VisualStudio.Language.Intellisense.xml",
+        "microsoft.visualstudio.language.intellisense.15.5.27130.nupkg.sha512",
+        "microsoft.visualstudio.language.intellisense.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Text.Data/15.5.27130": {
+      "sha512": "HCtsfpb1BH3q7f6rszkpA09JTF4lgx8BCZxOM2L+AB+j4bgtq1GoN4WOUSBgJamEtmU2moiXFQumEtZEFvaAxA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.text.data/15.5.27130",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.VisualStudio.Text.Data.dll",
+        "lib/net45/Microsoft.VisualStudio.Text.Data.xml",
+        "microsoft.visualstudio.text.data.15.5.27130.nupkg.sha512",
+        "microsoft.visualstudio.text.data.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Text.Logic/15.5.27130": {
+      "sha512": "Dx2D7gsGzrFCCacVxgEfwPypUoOy3pc1EamF9RapOjMKQEfgYaOewRDeZ+qgQowe8CKB7GVi7RvOXVUQObedcg==",
+      "type": "package",
+      "path": "microsoft.visualstudio.text.logic/15.5.27130",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.VisualStudio.Text.Logic.dll",
+        "lib/net45/Microsoft.VisualStudio.Text.Logic.xml",
+        "microsoft.visualstudio.text.logic.15.5.27130.nupkg.sha512",
+        "microsoft.visualstudio.text.logic.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Text.UI/15.5.27130": {
+      "sha512": "LUR3tY1bTf6NchU8kC/JTLI+Mr81fpxvmxrdoXiS6vtuZHSwnA4fQbMLchTFdLDGeX2gvDBHRIa9AJew5gvmOg==",
+      "type": "package",
+      "path": "microsoft.visualstudio.text.ui/15.5.27130",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.VisualStudio.Text.UI.dll",
+        "lib/net45/Microsoft.VisualStudio.Text.UI.xml",
+        "microsoft.visualstudio.text.ui.15.5.27130.nupkg.sha512",
+        "microsoft.visualstudio.text.ui.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Text.UI.Wpf/15.5.27130": {
+      "sha512": "lUSExNfNKTM/Ym0m1NPJPB7fFZ8IH5xO+g25+cEH+j0P/0Fo92nOBdocVzh9u28VoYAQ+QkjnxhiKPb1pEJnZA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.text.ui.wpf/15.5.27130",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.VisualStudio.Text.UI.Wpf.dll",
+        "lib/net45/Microsoft.VisualStudio.Text.UI.Wpf.xml",
+        "microsoft.visualstudio.text.ui.wpf.15.5.27130.nupkg.sha512",
+        "microsoft.visualstudio.text.ui.wpf.nuspec"
+      ]
+    },
+    "Ookii.Dialogs.Wpf/3.0.1": {
+      "sha512": "C3F1P+5XZVG4o5hB7JS1rZLalpCoGNv2FHAnN4UUJitYv0cD8xdy+eCouTfaZeCNTR/WUfip36e0Y4RDqKXBow==",
+      "type": "package",
+      "path": "ookii.dialogs.wpf/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/Ookii.Dialogs.Wpf.dll",
+        "lib/net45/Ookii.Dialogs.Wpf.pdb",
+        "lib/net45/Ookii.Dialogs.Wpf.xml",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.dll",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.pdb",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.xml",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.dll",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.pdb",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.xml",
+        "ookii.dialogs.wpf.3.0.1.nupkg.sha512",
+        "ookii.dialogs.wpf.nuspec"
+      ]
+    },
+    "System.ComponentModel.Composition/4.5.0": {
+      "sha512": "+iB9FoZnfdqMEGq6np28X6YNSUrse16CakmIhV3h6PxEWt7jYxUN3Txs1D8MZhhf4QmyvK0F/EcIN0f4gGN0dA==",
+      "type": "package",
+      "path": "system.componentmodel.composition/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcoreapp2.0/System.ComponentModel.Composition.dll",
+        "lib/netstandard2.0/System.ComponentModel.Composition.dll",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.ComponentModel.Composition.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.composition.4.5.0.nupkg.sha512",
+        "system.componentmodel.composition.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ComponentModel.Composition/4.6.0": {
+      "sha512": "xrLifQcKzXNinIunzLhgA4T0s0ZjkDdMq93mV8HkrfR6j0E7XVO3nIXorqkcqhdZI8HCQWUo00EHLQcegu9VIg==",
+      "type": "package",
+      "path": "system.componentmodel.composition/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcoreapp2.0/System.ComponentModel.Composition.dll",
+        "lib/netcoreapp2.0/System.ComponentModel.Composition.xml",
+        "lib/netstandard2.0/System.ComponentModel.Composition.dll",
+        "lib/netstandard2.0/System.ComponentModel.Composition.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.ComponentModel.Composition.dll",
+        "ref/netstandard2.0/System.ComponentModel.Composition.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.composition.4.6.0.nupkg.sha512",
+        "system.componentmodel.composition.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "type": "package",
+      "path": "system.reflection.emit/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Reflection.Emit.dll",
+        "ref/netstandard1.1/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/de/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/es/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/fr/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/it/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ja/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ko/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "sha512": "a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "type": "package",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard2.1/_._",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.1/_._",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.xml",
+        "system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "sha512": "vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.5.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Permissions/4.5.0": {
+      "sha512": "9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "type": "package",
+      "path": "system.security.permissions/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.xml",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.4.5.0.nupkg.sha512",
+        "system.security.permissions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "sha512": "U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.5.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "dnSpy.Contracts.Debugger/6.1.8": {
+      "type": "project",
+      "path": "../../../dnSpy/dnSpy.Contracts.Debugger/dnSpy.Contracts.Debugger.csproj",
+      "msbuildProject": "../../../dnSpy/dnSpy.Contracts.Debugger/dnSpy.Contracts.Debugger.csproj"
+    },
+    "dnSpy.Contracts.Debugger.DotNet/6.1.8": {
+      "type": "project",
+      "path": "../../../dnSpy/dnSpy.Contracts.Debugger.DotNet/dnSpy.Contracts.Debugger.DotNet.csproj",
+      "msbuildProject": "../../../dnSpy/dnSpy.Contracts.Debugger.DotNet/dnSpy.Contracts.Debugger.DotNet.csproj"
+    },
+    "dnSpy.Contracts.Debugger.DotNet.Mono/6.1.8": {
+      "type": "project",
+      "path": "../../../dnSpy/dnSpy.Contracts.Debugger.DotNet.Mono/dnSpy.Contracts.Debugger.DotNet.Mono.csproj",
+      "msbuildProject": "../../../dnSpy/dnSpy.Contracts.Debugger.DotNet.Mono/dnSpy.Contracts.Debugger.DotNet.Mono.csproj"
+    },
+    "dnSpy.Contracts.DnSpy/6.1.8": {
+      "type": "project",
+      "path": "../../../dnSpy/dnSpy.Contracts.DnSpy/dnSpy.Contracts.DnSpy.csproj",
+      "msbuildProject": "../../../dnSpy/dnSpy.Contracts.DnSpy/dnSpy.Contracts.DnSpy.csproj"
+    },
+    "dnSpy.Contracts.Logic/6.1.8": {
+      "type": "project",
+      "path": "../../../dnSpy/dnSpy.Contracts.Logic/dnSpy.Contracts.Logic.csproj",
+      "msbuildProject": "../../../dnSpy/dnSpy.Contracts.Logic/dnSpy.Contracts.Logic.csproj"
+    },
+    "dnSpy.Debugger.DotNet.Metadata/6.1.8": {
+      "type": "project",
+      "path": "../dnSpy.Debugger.DotNet.Metadata/dnSpy.Debugger.DotNet.Metadata.csproj",
+      "msbuildProject": "../dnSpy.Debugger.DotNet.Metadata/dnSpy.Debugger.DotNet.Metadata.csproj"
+    },
+    "Mono.Debugger.Soft/1.0.0": {
+      "type": "project",
+      "path": "../Mono.Debugger.Soft/Mono.Debugger.Soft.csproj",
+      "msbuildProject": "../Mono.Debugger.Soft/Mono.Debugger.Soft.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Mono.Debugger.Soft >= 1.0.0",
+      "dnSpy.Contracts.Debugger >= 6.1.8",
+      "dnSpy.Contracts.Debugger.DotNet >= 6.1.8",
+      "dnSpy.Contracts.Debugger.DotNet.Mono >= 6.1.8",
+      "dnSpy.Contracts.DnSpy >= 6.1.8",
+      "dnSpy.Contracts.Logic >= 6.1.8",
+      "dnSpy.Debugger.DotNet.Metadata >= 6.1.8"
+    ],
+    "net5.0-windows7.0": [
+      "Mono.Debugger.Soft >= 1.0.0",
+      "dnSpy.Contracts.Debugger >= 6.1.8",
+      "dnSpy.Contracts.Debugger.DotNet >= 6.1.8",
+      "dnSpy.Contracts.Debugger.DotNet.Mono >= 6.1.8",
+      "dnSpy.Contracts.DnSpy >= 6.1.8",
+      "dnSpy.Contracts.Logic >= 6.1.8",
+      "dnSpy.Debugger.DotNet.Metadata >= 6.1.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tien Bao\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "6.1.8",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\dnSpy.Debugger.DotNet.Mono\\dnSpy.Debugger.DotNet.Mono.csproj",
+      "projectName": "dnSpy.Debugger.DotNet.Mono.x",
+      "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\dnSpy.Debugger.DotNet.Mono\\dnSpy.Debugger.DotNet.Mono.csproj",
+      "packagesPath": "C:\\Users\\Tien Bao\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\dnSpy.Debugger.DotNet.Mono\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "configFilePaths": [
+        "C:\\Users\\Tien Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48",
+        "net5.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger.DotNet.Mono\\dnSpy.Contracts.Debugger.DotNet.Mono.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger.DotNet.Mono\\dnSpy.Contracts.Debugger.DotNet.Mono.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger.DotNet\\dnSpy.Contracts.Debugger.DotNet.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger.DotNet\\dnSpy.Contracts.Debugger.DotNet.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger\\dnSpy.Contracts.Debugger.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger\\dnSpy.Contracts.Debugger.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\dnSpy.Debugger.DotNet.Metadata\\dnSpy.Debugger.DotNet.Metadata.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\dnSpy.Debugger.DotNet.Metadata\\dnSpy.Debugger.DotNet.Metadata.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\Mono.Debugger.Soft\\Mono.Debugger.Soft.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\Mono.Debugger.Soft\\Mono.Debugger.Soft.csproj"
+            }
+          }
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger.DotNet.Mono\\dnSpy.Contracts.Debugger.DotNet.Mono.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger.DotNet.Mono\\dnSpy.Contracts.Debugger.DotNet.Mono.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger.DotNet\\dnSpy.Contracts.Debugger.DotNet.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger.DotNet\\dnSpy.Contracts.Debugger.DotNet.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger\\dnSpy.Contracts.Debugger.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Debugger\\dnSpy.Contracts.Debugger.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.DnSpy\\dnSpy.Contracts.DnSpy.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\dnSpy\\dnSpy.Contracts.Logic\\dnSpy.Contracts.Logic.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\dnSpy.Debugger.DotNet.Metadata\\dnSpy.Debugger.DotNet.Metadata.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\dnSpy.Debugger.DotNet.Metadata\\dnSpy.Debugger.DotNet.Metadata.csproj"
+            },
+            "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\Mono.Debugger.Soft\\Mono.Debugger.Soft.csproj": {
+              "projectPath": "C:\\Users\\Tien Bao\\Downloads\\dnSpy\\Extensions\\dnSpy.Debugger\\Mono.Debugger.Soft\\Mono.Debugger.Soft.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "noWarn": [
+          "NU1701"
+        ],
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+      },
+      "net48": {
+        "targetAlias": "net48",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
